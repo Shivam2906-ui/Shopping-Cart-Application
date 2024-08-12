@@ -1,6 +1,6 @@
 # E-Commerce Shopping Cart Web Application
 
-This project is a fully functional e-commerce web application built using React JS, Redux Toolkit, and Tailwind CSS. The application allows users to browse products, add items to their cart, and manage their purchases seamlessly.
+This project is a fully functional e-commerce web application built using React JS, Redux Toolkit, and CSS. The application allows users to browse products, add items to their cart, and manage their purchases seamlessly.
 
 ## Install dependencies:
 - npm install
@@ -38,11 +38,5 @@ This project is a fully functional e-commerce web application built using React 
 
 ## Technologies Used
 - **Frontend**: React JS, Redux Toolkit
-- **Styling**: CSS, Tailwind CSS
+- **Styling**: CSS
 - **State Management**: Context API
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
