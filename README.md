@@ -1,26 +1,48 @@
-# Shopping Cart with React useContext and useReducer Hook
+# E-Commerce Web Application
 
-Welcome to the "Shopping Cart" repository! This project serves as an illustrative example for harnessing the power of React's useContext and useReducer hooks to build a feature-rich e-commerce application.
+This project is a fully functional e-commerce web application built using React JS, Redux Toolkit, and Tailwind CSS. The application allows users to browse products, add items to their cart, and manage their purchases seamlessly.
 
-### Key Features
+## Install dependencies:
+- npm install
+## Start the development server:
+- npm start
 
-<ul>
-  <li><b>Product Filtering Options:</b> Explore a wide range of filtering options to refine your shopping experience:
-    <ul>
-      <li>Filter by category</li>
-      <li>Filter by available stock</li>
-      <li>Filter by star rating</li>
-      <li>Sort products by price in ascending or descending order</li>
-      <li>Search for products by name</li>
-    </ul>
-  </li>
-  <li><b>Dynamic Quantity Management:</b> Adjust product quantities with ease, allowing for precise control over your shopping cart.</li>
-  <li><b>Front-End Focus:</b> This web application is entirely front-end based</li>
-</ul>
+## Key Features
 
-### Design
+### 1. Product Listing Page
+- **Grid Layout**: Displays 6-10 products in a clean and organized grid layout.
+- **Product Details**: Each product card includes:
+  - Product Image
+  - Product Name
+  - Product Price (formatted for currency)
+  - "Add to Cart" Button
 
-<p align="">
-  <img src="https://github.com/Mahelchandupa/Advance-Shopping-Cart/assets/110615431/9d7260ae-ed40-4c37-80c1-5d78956fed36" width="350" alt="Screenshot 1">
-  <img src="https://github.com/Mahelchandupa/Advance-Shopping-Cart/assets/110615431/24258137-b911-40cc-84bc-571768ffb041" width="350" alt="Screenshot 2">
-</p>
+### 2. Add to Cart Functionality
+- **User Interaction**: Clicking the "Add to Cart" button adds the chosen product to the user's virtual shopping cart.
+- **Cart Counter**: Optionally, a cart icon or counter updates to reflect the number of items added.
+- **Visual Feedback**: Provides animation or other visual feedback confirming the item's addition to the cart.
+
+### 3. Cart Page
+- **Product Management**: The cart page allows users to manage their selected products:
+  - Displays a list of all added products, each showing:
+    - Product Image
+    - Product Name
+    - Product Price
+    - Quantity Selector: Users can adjust the quantity using up/down buttons or an input field.
+    - "Remove Item" Button: Allows users to remove specific products from the cart.
+- **Cart Summary**:
+  - **Subtotal**: Automatically calculates the total cost of all items in the cart.
+  - **Discounts**: Optionally includes the ability to apply fixed or percentage-based discounts to the total price.
+  - **Total Price**: Displays the final price after applying any discounts.
+  - **Checkout Button**: Provides a simulated checkout experience or a message indicating successful cart addition.
+
+## Technologies Used
+- **Frontend**: React JS, Redux Toolkit
+- **Styling**: CSS, Tailwind CSS
+- **State Management**: Context API
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
