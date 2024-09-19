@@ -2,6 +2,8 @@
 
 This project is a fully functional e-commerce web application built using React JS, Redux Toolkit, and CSS. The application allows users to browse products, add items to their cart, and manage their purchases seamlessly.
 
+You can view the live version of this project here: [Live Demo](https://chic-peony-194927.netlify.app)
+
 ## Install dependencies:
 - npm install
 ## Start the development server:
